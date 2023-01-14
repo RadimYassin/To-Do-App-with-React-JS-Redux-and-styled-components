@@ -58,5 +58,19 @@ width:100px;
 export const Box=styled.div`
 text-align:center;
 margin-top:6px;
+margin-top:${props=>props.mt && props.mt };
 
+`
+
+
+export const ButtonV=styled.button`
+padding:8px;
+background-color:rgb(201, 201, 249);
+&:hover{background-color:${props=>props.bg=="ALL" && "BLUE"};
+background-color:${props=>props.bg=="COMPLETED" && "rgb(208, 146, 12)" };
+background-color:${props=>props.bg=="INCOMPLETED"  && "rgb(5, 136, 206)"};
+color:white;
+
+
+}
 `

@@ -1,5 +1,5 @@
-export default Visblty={
+export const Vis={
     ALL:'all',
     COMPLETED:'completed',
-    INCOMPLETED:'INCOMPLETED'
+    INCOMPLETED:'incompleted'
 }
