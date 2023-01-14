@@ -55,3 +55,8 @@ width:100px;
 `
 
 
+export const Box=styled.div`
+text-align:center;
+margin-top:6px;
+
+`

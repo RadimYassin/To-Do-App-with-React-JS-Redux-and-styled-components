@@ -7,7 +7,7 @@ function AddTodo() {
 
 const handelSubmit=e=>{
   e.preventDefault()
-  console.log("hello");
+   setValue('')
 }
   return (
     <Form onSubmit={handelSubmit}>

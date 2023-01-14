@@ -1,10 +1,10 @@
 import React from 'react'
-
+import {Box} from '../GlobalStyle'
 const TodoList = () => {
   return (
-    <div>
-      TodoList
-    </div>
+    <Box>
+ no Todo YET !
+    </Box>
   )
 }
 
