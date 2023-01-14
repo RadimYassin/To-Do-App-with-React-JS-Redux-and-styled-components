@@ -28,8 +28,8 @@ padding:10px;
 
 export const Input=styled.input`
 padding:${props=>props.pd ? "10px":"8px"};
-background-color:${props=>props.bg ?  "rgb(109, 109, 170)":""};
-color:white;
+background-color:${props=>props.bg ?  "white":"red"};
+border-radius:5px;
 flex:1;
 &:focus{
     border:none;
@@ -42,8 +42,10 @@ flex:1;
 
 export const Button=styled.button`
 padding:${props=>props.pd ? "10px":"8px"};
-background-color:${props=>props.primary ?  "rgba(0, 0, 255)":" rgba(43, 43, 227, 0.555)"};
+background-color:${props=>props.disabled?" rgba(43, 43, 227, 0.555)"  :"rgba(0, 0, 255)"};
 color:white;
+border-radius:5px;
+width:100px;
 
 &:hover{
     background-color:${props=>props.primary ?  "rgb(43, 43, 198)":" rgba(43, 43, 227, 0.555)"};
