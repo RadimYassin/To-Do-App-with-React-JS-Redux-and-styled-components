@@ -1,5 +1,6 @@
 import AddTodo from './components/AddTodo'
 import TodoList from './components/TodoList'
+import VisibltyFiltter from './components/VisibltyFiltter'
 import { Container,Title } from "./GlobalStyle";
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
         <Title> To do list </Title>
          <AddTodo/>
          <TodoList/>
+         <VisibltyFiltter/>
     </Container>
   );
 }
