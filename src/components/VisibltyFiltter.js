@@ -8,7 +8,7 @@ const VisibltyFiltter = () => {
      {Object.keys(Vis).map((Vis,index)=>
       {
         return(
-
+         
           <ButtonV bg={Vis} key={index}>{Vis}</ButtonV>
         )
       }
